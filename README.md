@@ -1,2 +1,13 @@
-# Size-of-int-float-char-and-double
-Created by Sukanya, C++ program to find Size of int, float, char and double.
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    cout<<"Size of char: " << sizeof(char) << "bytes" << endl;
+    cout<<"Size of int: " << sizeof(int) <<  "bytes" << endl;
+    cout<<"Size of float: " << sizeof(float)  << "bytes" << endl;
+    cout<<"Size of double: " << sizeof(double) << "bytes" << endl;
+    
+    return 0;
+}
